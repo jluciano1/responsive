@@ -1,0 +1,227 @@
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html lang="pt-br">
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+			<link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css"> 
+			<link rel="shortcut icon" href="resources/img/p.png" type="image/x-png"/>
+			<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+			<link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+			<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+			<link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+			<link rel="stylesheet" type="text/css" href="resources/css/fonts.css">
+			<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
+			<title>PayJump</title>
+		</head>
+		<body>
+			<script type="text/javascript" src="resources/jquery-3.2.1.slim.min"></script>
+			<script type="text/javascript" src="resources/popper.min.js"></script>
+			<script type="text/javascript" src="resources/bootstrap.min.js"></script>
+			<script type="text/javascript" src="resources/jquery.min.js"></script>
+			<script type="text/javascript">// <![CDATA[
+				$(document).ready(function() {
+				function filterPath(string) {
+				return string
+				.replace(/^\//,'')
+				.replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+				.replace(/\/$/,'');
+				}
+				$('a[href*=#]').each(function() {
+				if ( filterPath(location.pathname) == filterPath(this.pathname)
+				&& location.hostname == this.hostname
+				&& this.hash.replace(/#/,'') ) {
+				var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+				var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+				if ($target) {
+				var targetOffset = $target.offset().top;
+				$(this).click(function() {
+				$('html, body').animate({scrollTop: targetOffset}, 1000);
+				return false;
+				});
+				}
+				}
+				});
+				});
+			// ]]></script>
+			<script type="text/javascript">
+				function EmptyField(id)
+				{
+				var Fid             = document.getElementById(id);
+				var TheDefaultValue = Fid.defaultValue;
+				var TheValue        = Fid.value;
+
+				if(TheDefaultValue == TheValue)
+				{
+					Fid.value = '';
+				}
+				}
+			</script>
+			<header>
+				<div id="menuzao">
+					<div id="logo">
+						<a href="#home" alt="Home"><img src="resources/img/payjump.png" alt="PayJump logo"  id="imglogo" style="width: 100%"></a>
+					</div>
+					<input type="checkbox" id="control-nav" style="visibility: hidden"/>
+					  <label for="control-nav" class="control-nav"></label>
+					  <label for="control-nav" class="control-nav-close"></label>
+					<nav id="menu">
+						<ul class="main-menu">
+							<li><a href="#QuemSomos" class="btn">Quem Somos</a></li>
+							<li><a href="#ComoFunciona" class="btn">Como Funciona</a></li>
+							<li><a href="#Promocoes" class="btn">Promoções</a></li>
+							<li><a href="#rfs" class="btn">Rápido, Fácil e Seguro</a></li>
+							<li><a href="#BancosParceiros" class="btn">Bancos e Parceiros</a></li>
+							<li><a href="#Contato" class="btn">Contato</a></li>
+							<li><a href="#" class="btn-full1">Login</a></li>
+							<li><a href="#" class="btn-full2">Cadastre-se</a></li>
+						</ul>
+					</nav>
+					
+				</div>
+			</header>
+			<img src="resources/img/madeira.png" alt="divisão de madeira" id="linha-header" width="100%" height="10px">
+			<div id="principal">
+				<a name="home"></a>
+				<section id="ComeceJa">
+						<div id="botao">
+							<a href="solicite.html" class="btn-full2"><b>SOLICITE AGORA</b></a>
+						</div>
+				</section>
+				<img src="resources/img/madeira.png" alt="divisão de madeira" height="10px" style="width: 100%">
+				<section id="QuemSomos">
+					<a name="#QuemSomos"></a>   
+							<h2>Quem Somos</h2>
+							<CENTER><img src="resources/img/linha.png" alt="linha quem somos" id="linha-quemsomos"></CENTER>
+							<p id="txtQuemSomos">A <em><strong>PayJump</strong></em> é uma empresa que visa facilitar a compra e venda de fichas online, oferecendo as melhores condições do mercado aos nossos colaboradores. <br> Somos reconhecidos pelo ótimo atendimento e pela agilidade em nossos serviços.<br><br> Entre em contato e comprove.</p>
+				</section>
+				<div id="pai">
+					<div id="filha">
+						<img src="resources/img/fichas-quemsomos.png" alt="fichas Quem Somos" width="250px" height="60px" id="fichas-quemsomos">
+					</div>
+				</div>
+				<section id="ComoFunciona">
+					<a name="ComoFunciona"></a>
+					<div id="geral">
+						<div id="cabecalho">
+							<h1>Como Funciona</h1>
+							<CENTER><img src="resources/img/linha.png" alt="linha como funciona" id="linha-comofunciona"></CENTER>
+						</div>
+						<div id="principal2">
+							<div id="conteudo-1"> 
+								<CENTER><img src="resources/img/k.png" alt="ficha vermelha k" id="k"></CENTER>
+								<h3>Cadastre-se</h3>
+								<p>Acesse nosso sistema para escolher suas opções e a quantidade que deseja.</p>
+							</div>
+							<div id="conteudo-2">
+								<div id="conteudo-2-1">
+									<CENTER><img src="resources/img/r.png" alt="ficha amarela r" id="r"></CENTER>
+									<h3>Compre</h3>
+									<p>Verifique a cotação, faça o pagamento e aguarde a confirmação do sistema.</p>
+								</div>
+								<div id="conteudo-2-2">
+									<CENTER><img src="resources/img/p.png" alt="ficha verde p" id="p"></CENTER>
+									<h3>Receba</h3>
+									<p>Assim que o sistema identificar o pagamento, suas fichas serão transferidas.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<img src="resources/img/aa.png" alt="dupla de Às" id="aa" position="absolute">
+				<!--<img src="resources/img/madeira.png" alt="divisão de madeira" width="100%" height="10px">-->
+				<section id="promocoes">
+					<a name="Promocoes"></a>
+					<div id=prom>
+						<h1>Promoções</h1>
+						<CENTER><img src="resources/img/linha.png" alt="linha promoções" id="linha-promocoes"></CENTER>
+						<p id="txtpromocoes"></p>
+					</div>
+				</section>
+				<img src="resources/img/madeira.png" alt="divisão de madeira" width="100%" height="10px">
+				<section id="RFS">
+					<a name="rfs"></a>
+					<div id="geral">
+						<div id="principal">
+							<div id="conteudo-1-rfs"> 
+								<h1>Rápido, Fácil e Seguro</h1>
+								<CENTER><img src="resources/img/linha.png" alt="linha promoções" id="linha-promocoes"></CENTER>
+								<p><b>Comprar e vender fichas nunca foi tão rápido, prático e seguro. Após a confirmação de pagamento transferimos as fichas para sua conta.</b></p>
+								<br><br><br><br><br>
+								<p>Atendemos das 09:00 as 00:00 de segunda à sexta e das 09:00 as 20:00 sábado, domingo e feriados.</p>
+								<p>Compre com a <em><b>PayJump</b></em> e garanta uma compra segura.</p>
+							</div>
+							<div id="conteudo-2-rfs">
+							</div>
+						</div>
+					</div>
+				</section>
+				<div id="pai2">
+					<div id="filha2">
+						<img src="resources/img/fichas-rfs.png" alt="fichas Rapido, Facil e Seguro" width="150px" height="100px" id="fichas-rfs">
+					</div>
+				</div>
+				<section id="BancosParceiros">
+					<a name="BancosParceiros"></a>
+						<div id="h-bancos">
+							<br>
+							<h1>Bancos &amp; Parceiros</h1>
+							<CENTER><img src="resources/img/linha.png" alt="linha bancos & parceiros" id="linha-bancosparceiros"></CENTER>
+						</div>
+						<table id="tableBancos">
+							<td id="tdBancos">
+								<img alt="Banco do Brasil" id="bancobrasil" src="resources/img/bb.png" width="175px" height="100px">
+							</td>
+							<td id="tdBancos">
+								<img alt="Itau" id="itau" src="resources/img/itau.png">
+							</td>
+							<td id="tdBancos">
+								<img alt="Bradesco" id="bradesco" src="resources/img/bra.png">
+							</td>
+						</table>
+				</section>
+				<img src="resources/img/madeira.png" alt="divisão de madeira" width="100%" height="10px">
+				<section id="Contato">
+					<a name="Contato"></a>
+					<div id="cont">    
+						<div id="h-contato">
+							<br>
+							<h4>Contato</h4>
+							<CENTER><img src="resources/img/linha-contato.png" alt="linha Contato" id="linha-contato"></CENTER>
+							<form action="#" method="POST">
+								<input type="hidden" name="redirect" value="http://PayJump.com.br">
+								<input type="hidden" name="subject" value="Duvidas Home">
+								<input type="hidden" name="email" value="contato@payjump.com"> 
+								<p id="txtform"><input type="text" size="40" name="nome" id="name" value=" Nome Completo" onfocus="EmptyField(this.id);"></p>   
+								<p id="txtform"><input type="text" size="40" name="replyto" id="email" value=" E-mail" onfocus="EmptyField(this.id);"></p>   
+								<p id="txtform"><textarea id="msg" cols="41" rows="5" name="mensagem" type="text" onfocus="EmptyField(this.id);"> Sua Mensagem</textarea></p>   
+								<br>
+								<p><input type="submit" name="BTEnvia" value="ENVIAR" id="botao2"></p>
+							</form>
+						</div>
+						<div id="social-icons">
+							<ul id="social-links">
+								<p id="titulo-solicite">Tire as suas dúvidas agora!</p>
+								
+								<p id="txtsolicite">Quer tirar duvidas? <br> Fique a vontade para enviar uma mensagem para nossa equipe.<br>Em breve entraremos em contato!</p>
+								<p id="titulo-solicite1">Outras formas de contato</p>
+								<br>
+								<div id="linone"><img src="resources/img/whats.png" alt="WhatsApp" width="30px" height="30px"></div>
+								<p id="num">(11)98765-2345</p>
+								<div id="face"><a href="#"><img src="resources/img/face.png" alt="Facebook" width="20px" height="30px"></a></div>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<div id="pai3">
+					<div id="filha3">
+						<img src="resources/img/roleta.png" alt="fichas Rapido, Facil e Seguro" width="1263px" height="316px" id="imgroleta">
+					</div>
+				</div>
+				<section id="roleta"></section>
+				<img src="resources/img/madeira.png" alt="divisão de madeira" width="100%" height="10px">
+				<footer>
+					<p id="copy">&copy; Copyright 2017 by <a href="http://www.dj.blog.br/" class="acor">DJ FULL DIGITAL</a> - All rights reserved!</p>
+				</footer>
+			</div>
+		</body>
+	</html>

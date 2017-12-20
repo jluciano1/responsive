@@ -1,0 +1,575 @@
+.item-menu{
+  padding: 2px 10px;
+    display: inline-block;
+	font-size: 10px;
+	color: #fdf9f9 !important;	
+	font-weight: bold;
+}
+
+.arredondado-menu {
+    border-radius: 10px;
+    background: #E9CC2D;
+}
+
+.botao {
+        position: absolute;
+        float: left;
+        width: auto;
+        height: 10%;
+        margin-top: 29%;
+        margin-left: 10%;
+        font-size: 160%;
+        font-family: 'Quicksand', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+
+.botao a:link,
+.botao a:visited{
+    padding: 8px 8px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 60%;
+    border: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.titulo-quemsomos{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 4%;
+  position: absolute;
+  top: 8%;
+  left: 45%;
+}
+
+.imagem-quemsomos{
+  position: absolute;
+  top: 72%;
+  left: 15%;
+}
+
+.linha-quemsomos {
+  position: absolute;
+  top: 25%;
+  left: 36%;
+  z-index: -1;
+  width: 30%;
+}
+
+.texto-quemsomos {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  width: 100%;
+}
+
+/*.imagem-comofunciona{
+  position: absolute;
+  top: 920px;
+  z-index: -1;
+  width: 100%;
+}*/
+.pquemsomoscel
+{
+  font-size: 70%;
+}
+.pquemsomos
+{
+  font-size: 130%;
+}
+.largura-geral {
+    width: 100%;
+}
+
+.titulo-comofunciona{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 50px;
+  position: absolute;
+  /*top: 0%;*/
+  left: 45%;
+}
+
+.linha-comofunciona {
+  position: absolute;
+  top: 18%;
+  left: 36%;
+  z-index: -1;
+  width: 32%;
+}
+
+.texto-comofunciona {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+
+.imgk {
+  position: absolute;
+  width: 12%;
+  height: 50%;
+  left:20%;
+  top:-10%;
+}
+
+.imgr {
+  position: absolute;
+  width: 12%;
+  height: 50%;
+  left:45%;
+  top:-10%;
+}
+
+.imgp {
+  position: absolute;
+  width: 12%;
+  height: 50%;
+  left:70%;
+  top:-10%;
+}
+
+.texto-comofunciona1 {
+  left: 16%;
+  margin-top: 10%;
+}
+.texto-comofunciona2 {
+  left: 27%;
+  margin-top: 10%;
+}
+.texto-comofunciona3 {
+  left: 35%;
+  margin-top: 10%;
+}
+
+.back-comeceja
+{
+  background-image: url(img/comeceja.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  top: 6%;
+  z-index: -1;
+  width: 100%;
+  height: 75%;
+  background-size: 100%;
+}
+
+.back-quemsomos
+{
+  background-size: 100%;
+  background-image: url(img/mesa.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 75%;
+  top: 80%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-comofunciona
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verdetextura.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 72%;
+  top: 147%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-duvida
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verde.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 51%;
+  top: 219%;
+  z-index: -1;
+  width: 100%;
+}
+
+.texto-duvida1 {
+  left: 16%;
+  margin-top: 10%;
+}
+.texto-duvida2 {
+  left: 27%;
+  margin-top: 10%;
+}
+.texto-duvida3 {
+  left: 35%;
+  margin-top: 10%;
+}
+
+.titulo-duvida{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  /*margin-top: 20%;*/
+  position: absolute;
+  /*top: -5%;*/
+  left: 48%;
+}
+
+.linha-duvida {
+  position: absolute;
+  top: 25%;
+  left: 36%;
+  z-index: -1;
+  width: 32%;
+}
+
+.texto-duvida {
+  position: absolute;
+  /*top: 15%;*/
+  width: 100%;
+}
+
+.back-rapido
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verdetextura.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 70%;
+  top: 270%;
+  z-index: -1;
+  width: 100%;
+}
+
+.titulo-rapido{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  top: 7%;
+  left: 15%;
+}
+
+.linha-rapido {
+  position: absolute;
+  top: 28%;
+  left: 7%;
+  z-index: -1;
+  width: 32%;
+}
+
+.texto-rapido {
+  position: absolute;
+  top: 30%;
+  left: -25%;
+  width: 100%;
+}
+
+.back-bancos
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verde.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 70%;
+  top: 340%;
+  z-index: -1;
+  width: 100%;
+}
+
+.titulo-bancos{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  /*top: 10%;*/
+  left: 43%;
+}
+
+.bancos{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 100%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  top: 35%;
+  left: 43%;
+}
+
+.linha-bancos {
+  position: absolute;
+  top: 18%;
+  left: 35%;
+  z-index: -1;
+  width: 32%;
+}
+
+.texto-bancos {
+  position: absolute;
+  top: 30%;
+  left: -15%;
+  width: 100%;
+}
+
+.banco1 {
+  position: absolute;
+  left:2%;
+  top:30%;
+}
+
+.banco2 {
+  position: absolute;
+  left:22%;
+  top:30%;
+}
+
+.banco3 {
+  position: absolute;
+  left:33%;
+  top:35%;
+}
+
+.banco4 {
+  position: absolute;
+  left:50%;
+  top:30%;
+}
+
+.banco5 {
+  position: absolute;
+  left:72%;
+  top:30%;
+}
+
+.back-contato
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-branco.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 70%;
+  top: 400%;
+  z-index: -1;
+  width: 100%;
+}
+
+.titulo-contato{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  top: 5%;
+  left: 47%;
+}
+
+.linha-contato {
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  z-index: -1;
+  width: 32%;
+}
+
+.texto-contato {
+  position: absolute;
+  color: #252525 !important;
+  top: 20%;
+  left: 55%;
+  width: 100%;
+}
+
+.form-contato {
+  position: absolute;
+  top: 15%;
+  /*left: 0%;*/
+  width: 100%;
+}
+
+.back-roleta
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verdetextura.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 44%;
+  top: 470%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-footer
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verdeclaro.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 5%;
+  top: 514%;
+  z-index: -1;
+  width: 100%;
+}
+
+.copy {
+    font-size: 80%;
+    text-align: center;
+}
+
+.acopy {
+    font-size: 80%;
+    text-align: center;
+    text-transform: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.imagem-pardeas{
+  position: absolute;
+  top: 60%;
+  /*left: 15%;*/
+}
+
+.fichas{
+  position: absolute;
+  top: 100%;
+  left: 75%;
+}
+
+.madeira{
+  position: absolute;
+}
+
+.back-login
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verde.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-loginbranco
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-branco.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 50%;
+  z-index: -1;
+  width: 40%;
+  top: 20%;
+  left: 30%;
+}
+
+.linha-login {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  z-index: -1;
+  width: 80%;
+}
+
+.titulo-login{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  top: 5%;
+  left: 32%;
+}
+
+.form-login {
+  position: absolute;
+  top: 15%;
+  left: -20%;
+  width: 100%;
+}
+
+.texto-login1
+{
+  position: absolute;
+  top: 75%;
+  left: 20%;
+}
+
+.botaologin
+{
+ position: absolute;
+  top: 75%;
+  left: 5%;
+}
+
+.texto-login2
+{
+ position: absolute;
+  top: 120%;
+  left: 25%;
+  color: #fff !important;
+}
+
+.logo-login
+{
+  position: absolute;
+  top: 85%;
+  left: 45%;
+  z-index: -1;
+  width: 12%;
+}
+
+.logo-cadastro
+{
+  position: absolute;
+  top: 10%;
+  left: 45%;
+  z-index: -1;
+  width: 12%;
+}
+
+.titulo-login{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  /*top: 5%;*/
+  left: 32%;
+}
+
+.botaocadastro
+{
+ position: absolute;
+  top: 110%;
+  left: -18%;
+}
+
+.texto-cadastro
+{
+ position: absolute;
+  top: 120%;
+  left: 20%;
+  color: #fff !important;
+  text-align: center;
+}
