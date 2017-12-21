@@ -37,6 +37,32 @@
     transition: border-bottom 0.2s;
 }
 
+.botaocel a:link,
+.botaocel a:visited{
+    padding: 8px 8px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 60%;
+    border: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.botaocel {
+        position: absolute;
+        left: 5%;
+        top: 70%;
+        background-color: #ffcb05;
+    border: none;
+    color: #fff !important;
+    border-radius: 10%;
+    font-size: 120%;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
 .titulo-quemsomos{
   font-family: 'Quicksand', sans-serif;
   color: #03da9c;
@@ -151,10 +177,22 @@
   margin-top: 10%;
 }
 
+.back-comecejacel
+{
+  background-image: url(img/comeceja.png);
+  background-repeat: repeat;
+  position: absolute;
+  top: 5%;
+  z-index: -1;
+  width: 100%;
+  height: 30%;
+  background-size: 100%;
+}
+
 .back-comeceja
 {
   background-image: url(img/comeceja.png);
-  background-repeat: repeat; /* for vertical repeat */
+  background-repeat: repeat;
   position: absolute;
   top: 6%;
   z-index: -1;
@@ -171,6 +209,18 @@
   position: absolute;
   height: 75%;
   top: 80%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-quemsomoscel
+{
+  background-size: 100%;
+  background-image: url(img/mesa.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 75%;
+  top: 40%;
   z-index: -1;
   width: 100%;
 }
