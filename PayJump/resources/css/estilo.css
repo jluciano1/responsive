@@ -83,7 +83,7 @@
   font-size: 200%;
   margin-top: 4%;
   position: absolute;
-  top: -43%;
+  top: -35%;
   left: 38%;
 }
 
@@ -103,7 +103,7 @@
 
 .linha-quemsomoscel {
   position: absolute;
-  top: -11%;
+  top: -14%;
   left: 36%;
   z-index: -1;
   width: 30%;
@@ -131,7 +131,7 @@
 }*/
 .pquemsomoscel
 {
-  font-size: 100%;
+  font-size: 130%;
 }
 .pquemsomos
 {
@@ -159,6 +159,32 @@
   left: 36%;
   z-index: -1;
   width: 32%;
+}
+
+.titulo-comofuncionacel{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 50px;
+  position: absolute;
+  top: -3%;
+  left: 30%;
+}
+
+.linha-comofuncionacel{
+  position: absolute;
+  top: 10%;
+  left: 36%;
+  z-index: -1;
+  width: 32%;
+}
+
+.texto-comofuncionacel {
+  position: absolute;
+  top: 10%;
+  width: 100%;
 }
 
 .texto-comofunciona {
@@ -258,7 +284,7 @@
   background-image: url(img/fundo-verdeclaro.png);
   background-repeat: repeat; /* for vertical repeat */
   position: absolute;
-  height: 50%;
+  height: 60%;
   top: 24%;
   z-index: -1;
   width: 100%;
@@ -276,6 +302,18 @@
   width: 100%;
 }
 
+.back-comofuncionacel
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verdetextura.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 80%;
+  top: 85%;
+  z-index: -1;
+  width: 100%;
+}
+
 .back-duvida
 {
   background-size: 100% auto;
@@ -284,6 +322,18 @@
   position: absolute;
   height: 51%;
   top: 219%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-duvidacel
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verde.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 51%;
+  top: 165%;
   z-index: -1;
   width: 100%;
 }
@@ -313,10 +363,30 @@
   left: 48%;
 }
 
+.titulo-duvidacel{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  /*margin-top: 20%;*/
+  position: absolute;
+  /*top: -5%;*/
+  left: 37%;
+}
+
 .linha-duvida {
   position: absolute;
   top: 25%;
   left: 36%;
+  z-index: -1;
+  width: 32%;
+}
+
+.linha-duvidacel {
+  position: absolute;
+  top: 15%;
+  left: 35%;
   z-index: -1;
   width: 32%;
 }
@@ -335,6 +405,18 @@
   position: absolute;
   height: 70%;
   top: 270%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-rapidocel
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verdetextura.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 60%;
+  top: 200%;
   z-index: -1;
   width: 100%;
 }
@@ -366,14 +448,58 @@
   width: 100%;
 }
 
+.titulo-rapidocel{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  top: 7%;
+  left: 18%;
+}
+
+.linha-rapidocel{
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  z-index: -1;
+  width: 32%;
+}
+
+.texto-rapidocel{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 80%;
+}
+
+.prapidocel
+{
+  font-size: 100%;
+}
+
 .back-bancos
 {
   background-size: 100% auto;
   background-image: url(img/fundo-verde.png);
-  background-repeat: repeat; /* for vertical repeat */
+  background-repeat: repeat;
   position: absolute;
   height: 70%;
   top: 340%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-bancoscel
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verde.png);
+  background-repeat: repeat;
+  position: absolute;
+  height: 70%;
+  top: 260%;
   z-index: -1;
   width: 100%;
 }
@@ -398,8 +524,8 @@
   font-size: 100%;
   /*margin-top: 50px;*/
   position: absolute;
-  top: 35%;
-  left: 43%;
+  top: 15%;
+  left: 38%;
 }
 
 .linha-bancos {
@@ -414,6 +540,33 @@
   position: absolute;
   top: 30%;
   left: -15%;
+  width: 100%;
+}
+
+.titulo-bancoscel{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  /*top: 10%;*/
+  left: 23%;
+}
+
+.linha-bancoscel {
+  position: absolute;
+  top: 12%;
+  left: 35%;
+  z-index: -1;
+  width: 32%;
+}
+
+.texto-bancoscel {
+  position: absolute;
+  top: 10%;
+  left: -25%;
   width: 100%;
 }
 
@@ -459,6 +612,18 @@
   width: 100%;
 }
 
+.back-contatocel
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-branco.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 70%;
+  top: 300%;
+  z-index: -1;
+  width: 100%;
+}
+
 .titulo-contato{
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
@@ -493,6 +658,40 @@
   width: 100%;
 }
 
+.titulo-contatocel{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  /*top: 5%;*/
+  left: 40%;
+}
+
+.linha-contatocel {
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  z-index: -1;
+  width: 32%;
+}
+
+.texto-contatocel {
+  position: absolute;
+  color: #252525 !important;
+  top: 55%;
+  left: 15%;
+  width: 80%;
+}
+
+.form-contatocel {
+  position: absolute;
+  top: 17%;
+  left: 25%;
+  width: 100%;
+}
+
 .back-roleta
 {
   background-size: 100% auto;
@@ -505,6 +704,18 @@
   width: 100%;
 }
 
+.back-roletacel
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verdetextura.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 44%;
+  top: 370%;
+  z-index: -1;
+  width: 100%;
+}
+
 .back-footer
 {
   background-size: 100% auto;
@@ -513,6 +724,18 @@
   position: absolute;
   height: 5%;
   top: 514%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-footercel
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verdeclaro.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 5%;
+  top: 404%;
   z-index: -1;
   width: 100%;
 }
