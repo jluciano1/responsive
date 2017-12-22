@@ -238,7 +238,7 @@
   top: 5%;
   z-index: -1;
   width: 100%;
-  height: 24%;
+  height: 34%;
   background-size: 100%;
 }
 
@@ -648,7 +648,23 @@
   color: #252525 !important;
   top: 20%;
   left: 55%;
-  width: 100%;
+  width: 20%;
+}
+
+.msgcel {
+        margin-top: 0px;
+        width: 50%;
+        height: 5%;
+    }
+    
+  .msg {
+        margin-top: 0px;
+        width: 29%;
+        height: 30%;
+    }
+    
+.txtform {
+    color: #000;
 }
 
 .form-contato {
@@ -665,7 +681,7 @@
   font-size: 200%;
   /*margin-top: 50px;*/
   position: absolute;
-  /*top: 5%;*/
+  /*top: -3%;*/
   left: 40%;
 }
 
@@ -680,7 +696,7 @@
 .texto-contatocel {
   position: absolute;
   color: #252525 !important;
-  top: 55%;
+  top: 60%;
   left: 15%;
   width: 80%;
 }
@@ -710,7 +726,7 @@
   background-image: url(img/fundo-verdetextura.png);
   background-repeat: repeat; /* for vertical repeat */
   position: absolute;
-  height: 44%;
+  height: 14%;
   top: 370%;
   z-index: -1;
   width: 100%;
@@ -735,7 +751,7 @@
   background-repeat: repeat; /* for vertical repeat */
   position: absolute;
   height: 5%;
-  top: 404%;
+  top: 383%;
   z-index: -1;
   width: 100%;
 }

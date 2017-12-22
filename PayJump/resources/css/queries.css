@@ -380,16 +380,7 @@
         margin-top: 5px;
     }
 
-    #msg {
-        border: 1px;
-        border-radius: 5px;
-        margin-top: 5px;
-    }
-
-    #txtform {
-        color: #000;
-    }
-
+    
     /* ----------------------------------------------- */
 
     #linone {
@@ -612,12 +603,6 @@
     form{
         margin-top: 10px;
         margin-left: 178px;    
-    }
-    
-    #msg {
-        margin-top: 0px;
-        width: 250px;
-        height: 80px;
     }
     
     #name {
@@ -851,11 +836,6 @@
         margin-left: 145px;    
     }
     
-    #msg {
-        margin-top: -10px;
-        width: 250px;
-        height: 80px;
-    }
     
     #name {
         margin-top: 0px;
@@ -1164,10 +1144,6 @@
         font-size: 11px;
     }
     
-    #msg {
-        font-size: 11px;
-    }
-    
     #botao2 {
         font-size: 11px;
         width: 50px;
@@ -1346,9 +1322,7 @@
         width: 180px;
     }
     
-     #msg {
-        width: 180px;
-    }
+     
     /* ----------------------------------------------- */
     /* Roleta */
     /* ----------------------------------------------- */
