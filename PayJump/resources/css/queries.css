@@ -104,7 +104,7 @@
     /* Section QuemSomos */
     /* ----------------------------------------------- */
 
-    #QuemSomos {
+    /*#QuemSomos {
         height: 400px;
         margin: 0 0;
         background: url(img/mesa.png) no-repeat center center absolute; 
@@ -117,7 +117,7 @@
         padding: 3em;
         right: 0;
         top: 0;
-    }
+    }*/
 
     #txtQuemSomos {
         width: 700px;
@@ -171,10 +171,10 @@
         padding: 15px;
     }
 
-    #ComoFunciona p {
+    /*#ComoFunciona p {
         text-align: center;
         color: #fff;
-    }
+    }*/
 
     #k {
         margin-bottom: 25px;
@@ -205,7 +205,7 @@
     /* Section Promoções */
     /* ----------------------------------------------- */
 
-    #promocoes {
+    /*#promocoes {
         height: 400px;
         margin: 0 0;
         background: url(img/fundo-verde.png) no-repeat center center absolute; 
@@ -218,7 +218,7 @@
         padding: 3em;
         right: 0;
         top: 0;
-    }
+    }*/
 
     #linha-promocoes {
         margin-top: -10px;
@@ -340,7 +340,7 @@
     /* Section Contato */
     /* ----------------------------------------------- */
 
-    #Contato {
+    /*#Contato {
         height: 500px;
         margin: 0 0;
         background: url(img/fundo-contato.png) no-repeat center center absolute; 
@@ -353,7 +353,7 @@
         padding: 3em;
         right: 0;
         top: 0;
-    }
+    }*/
 
     /* Formulário */
 

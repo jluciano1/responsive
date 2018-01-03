@@ -11,8 +11,8 @@
 }
 
 .navbar-default {
-    background-color: #0c8205;
-    border-color: #01b103;
+    background-color: #2D5333;
+    border-color: #25432A;
 }
 
 .alinhamento {
@@ -489,7 +489,7 @@ header {
 /* ----------------------------------------------- */
 /* Section QuemSomos */
 /* ----------------------------------------------- */
-#QuemSomos {
+/*#QuemSomos {
     width: 100%;
     height: 500px;
     margin: 0 0;
@@ -503,7 +503,7 @@ header {
     padding: 3em;
     right: 0;
     top: 0;
-}
+}*/
 
 #linha-quemsomos {
     margin-top: 5px;
@@ -567,10 +567,10 @@ header {
     margin-left: -100px;
 }
 
-#ComoFunciona p {
+/*#ComoFunciona p {
     text-align: center;
     color: #fff;
-}
+}*/
 
 #k {
     margin-bottom: 25px;
@@ -600,7 +600,7 @@ header {
 /* Section Promoções */
 /* ----------------------------------------------- */
 
-#promocoes {
+/*#promocoes {
     height: 400px;
     margin: 0 0;
     background: url(img/fundo-verde.png); 
@@ -613,7 +613,7 @@ header {
     padding: 3em;
     right: 0;
     top: 0;
-}
+}*/
 
 #prom {
     margin-top: 80px;
@@ -739,7 +739,7 @@ header {
 /* Section Contato */
 /* ----------------------------------------------- */
 
-#Contato {
+/*#Contato {
     height: 500px;
     margin: 0 0;
     background: url(img/fundo-contato.png); 
@@ -752,7 +752,7 @@ header {
     padding: 3em;
     right: 0;
     top: 0;
-}
+}*/
 
 /* Formulário */
 
