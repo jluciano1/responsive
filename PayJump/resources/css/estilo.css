@@ -123,12 +123,6 @@
   width: 100%;
 }
 
-/*.imagem-comofunciona{
-  position: absolute;
-  top: 920px;
-  z-index: -1;
-  width: 100%;
-}*/
 .pquemsomoscel
 {
   font-size: 130%;
@@ -572,32 +566,20 @@
 
 .banco1 {
   position: absolute;
-  left:2%;
+  left:30%;
   top:30%;
 }
 
 .banco2 {
   position: absolute;
-  left:22%;
+  left:48%;
   top:30%;
 }
 
 .banco3 {
   position: absolute;
-  left:33%;
+  left:60%;
   top:35%;
-}
-
-.banco4 {
-  position: absolute;
-  left:50%;
-  top:30%;
-}
-
-.banco5 {
-  position: absolute;
-  left:72%;
-  top:30%;
 }
 
 .back-contato
