@@ -136,6 +136,7 @@
 
     #fichas-quemsomos {
         margin: -25px 0 -25px 100px;
+        
     }
 
     /* ----------------------------------------------- */
@@ -576,10 +577,10 @@
         margin-left: 0;    
     }
     
-    #linha-quemsomos {
+    /*#linha-quemsomos {
         width: 300px;
         margin-left: 0;
-    }
+    }*/
     
     /* ----------------------------------------------- */
     /* Como Funciona */
@@ -692,10 +693,10 @@
     /* ----------------------------------------------- */
     /* Quem Somos */
     /* ----------------------------------------------- */
-    #QuemSomos {
+    /*#QuemSomos {
         width: 100%;
         height: 330px;
-    }
+    }*/
     
     h2 {
         margin-top: 20px;
@@ -960,10 +961,10 @@
     /* ----------------------------------------------- */
     /* Quem Somos */
     /* ----------------------------------------------- */
-    #QuemSomos {
+    /*#QuemSomos {
         height: 200px;
         background-image: url(img/fundo-verdeclaro.png);
-    }
+    }*/
     
     h2 {
         margin-top: 0;
