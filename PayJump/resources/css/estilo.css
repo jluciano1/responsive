@@ -379,7 +379,7 @@
 
 .linha-duvidacel {
   position: absolute;
-  top: 15%;
+  top: 20%;
   left: 35%;
   z-index: -1;
   width: 32%;
@@ -916,7 +916,7 @@
 {
   position: absolute;
   color: #252525 !important;
-  top: 45%;
+  top: 25%;
   left: 25%;
   width: 80%;
 }
@@ -925,7 +925,7 @@
 {
   position: absolute;
   color: #252525 !important;
-  top: 45%;
+  top: 25%;
   left: 65%;
   width: 80%;
 }
@@ -946,5 +946,14 @@
   background-color: #2D5333;
   color: #4CAF50 !important;
   width: 12%;
+  height: 10%;
+}
+
+.botaopromocaocel
+{
+  border: 2px solid #4CAF50;
+  background-color: #2D5333;
+  color: #4CAF50 !important;
+  width: 32%;
   height: 10%;
 }
