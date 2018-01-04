@@ -321,7 +321,7 @@
   background-repeat: repeat; /* for vertical repeat */
   position: absolute;
   height: 51%;
-  top: 200%;
+  top: 219%;
   z-index: -1;
   width: 100%;
 }
@@ -406,7 +406,7 @@
   background-repeat: repeat; /* for vertical repeat */
   position: absolute;
   height: 100%;
-  top: 350%;
+  top: 270%;
   z-index: -1;
   width: 100%;
 }
@@ -794,7 +794,7 @@
 
 .fichas{
   position: absolute;
-  top: 100%;
+  top: 70%;
   left: 75%;
 }
 
@@ -1262,10 +1262,10 @@ input::placeholder { color: gray; }
     width: 8%
 }
 
-.iconepaycel {
+.iconemoney {
     position: absolute;
     top: 45%;
-    left: 15%;
+    left: 55%;
     width: 8%
 }
 
