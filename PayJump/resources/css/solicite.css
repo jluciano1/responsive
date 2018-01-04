@@ -185,3 +185,25 @@ a.article, a.article:hover {
 .justificado{
 	text-align: justify;
 }
+
+.form-pessoais
+{
+  width: 70%;
+  margin-left: 10%;
+}
+
+.btnsalvar{
+    text-align: center;
+    background-color: #0a5e3a !important;
+    border-color: #0a5e3a;
+    width: 10%;
+    height: 5%;
+    float: left;
+}
+
+.botaosalvar
+{
+ position: absolute;
+  top: 60%;
+  left: 68%;
+}
