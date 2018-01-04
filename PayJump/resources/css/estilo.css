@@ -48,12 +48,13 @@
     border: 2px solid transparent;
     -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
+    top:10%;
 }
 
 .botaocel {
         position: absolute;
-        left: 5%;
-        top: 70%;
+        left: 55%;
+        top: 23%;
         background-color: #ffcb05;
     border: none;
     color: #fff !important;
@@ -847,12 +848,37 @@
   background-image: url(img/fundo-branco.png);
   background-repeat: repeat; /* for vertical repeat */
   position: absolute;
-  height: 50%;
+  height: 53%;
   z-index: -1;
   width: 40%;
   top: 20%;
   left: 30%;
 }
+
+.back-cadastrocel
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verde.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-cadastrobrancocel
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-branco.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 53%;
+  z-index: -1;
+  width: 80%;
+  top: 12%;
+  left: 10%;
+}
+
 .linha-login {
   position: absolute;
   top: 28%;
@@ -1215,8 +1241,28 @@ input::placeholder { color: gray; }
     float: right;
 }
 
-/*.form {
-    float: left;
-    margin-left: 280px;
-    margin-top: 45px;
-}*/
+.iconepay {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    width: 8%
+}
+
+.iconepaycel {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    width: 8%
+}
+
+.back-footercadastro
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verdeclaro.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 5%;
+  top: 95%;
+  z-index: -1;
+  width: 100%;
+}
