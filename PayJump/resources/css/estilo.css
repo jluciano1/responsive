@@ -801,7 +801,7 @@
   z-index: -1;
   width: 85%;
   top: 12%;
-  left: 10%;
+  left: 8%;
 }
 
 .back-cadastro
@@ -829,7 +829,15 @@
 }
 .linha-login {
   position: absolute;
-  top: 15%;
+  top: 28%;
+  left: 32%;
+  z-index: -1;
+  width: 35%;
+}
+
+.linha-logincel {
+  position: absolute;
+  top: 20%;
   left: 10%;
   z-index: -1;
   width: 80%;
@@ -851,22 +859,18 @@
   width: 70%;
 }
 
-.titulo-login{
-  font-family: 'Quicksand', sans-serif;
-  font-weight: bold;
-  text-align: center;
-  font-size: 200%;
-  /*margin-top: 50px;*/
-  position: absolute;
-  top: 5%;
-  left: 32%;
-}
-
 .form-login {
   position: absolute;
-  top: 12%;
-  left: -35%;
-  width: 80%;
+  top: 32%;
+  left: 15%;
+  width: 35%;
+}
+
+.form-logincel {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  width: 70%;
 }
 
 .form-cadastro {
@@ -886,22 +890,44 @@
 .texto-login1
 {
   position: absolute;
-  top: 75%;
-  left: 20%;
+  top: 64%;
+  left: 35%;
+}
+
+.texto-login1cel
+{
+  position: absolute;
+  top: 55%;
+  left: 10%;
 }
 
 .botaologin
 {
  position: absolute;
-  top: 75%;
-  left: 5%;
+  top: 70%;
+  left: 80%;
+}
+
+.botaologincel
+{
+ position: absolute;
+  top: 70%;
+  left: 70%;
 }
 
 .texto-login2
 {
  position: absolute;
-  top: 120%;
-  left: 25%;
+  top: 75%;
+  left: 40%;
+  color: #fff !important;
+}
+
+.texto-login2cel
+{
+ position: absolute;
+  top: 65%;
+  left: 18%;
   color: #fff !important;
 }
 
@@ -939,7 +965,18 @@
   font-size: 200%;
   /*margin-top: 50px;*/
   position: absolute;
-  /*top: 5%;*/
+  top: 21%;
+  left: 43%;
+}
+
+.titulo-logincel{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  top: 12%;
   left: 32%;
 }
 
@@ -1095,4 +1132,27 @@ input::placeholder { color: gray; }
     width: 100%;
     height: 15%;
     float: left;
+}
+
+.btnlogin{
+    text-align: center;
+    background-color: #0a5e3a !important;
+    border-color: #0a5e3a;
+    width: 20%;
+    height: 20%;
+    float: right;
+}
+
+.btnlogincel{
+    text-align: center;
+    background-color: #0a5e3a !important;
+    border-color: #0a5e3a;
+    width: 30%;
+    height: 20%;
+    float: right;
+}
+
+.pesqueceu
+{
+  color: black;
 }
