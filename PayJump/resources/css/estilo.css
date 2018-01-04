@@ -662,7 +662,7 @@
     
   .msg {
         margin-top: 0px;
-        width: 29%;
+        width: 24%;
         height: 30%;
     }
     
@@ -699,7 +699,7 @@
 .texto-contatocel {
   position: absolute;
   color: #252525 !important;
-  top: 60%;
+  top: 65%;
   left: 15%;
   width: 80%;
 }
@@ -717,10 +717,16 @@
   background-image: url(img/fundo-verdetextura.png);
   background-repeat: repeat; /* for vertical repeat */
   position: absolute;
-  height: 44%;
+  height: 45%;
   top: 470%;
   z-index: -1;
   width: 100%;
+}
+
+.imgroleta {
+    height: 120%;
+    width: 100%;
+    margin-top: -4%;
 }
 
 .back-roletacel
@@ -742,7 +748,7 @@
   background-repeat: repeat; /* for vertical repeat */
   position: absolute;
   height: 5%;
-  top: 95%;
+  top: 513%;
   z-index: -1;
   width: 100%;
 }
@@ -1176,4 +1182,36 @@ input::placeholder { color: gray; }
 .pesqueceu
 {
   color: black;
+}
+
+.botaocontato
+{
+ position: absolute;
+  top: 90%;
+  left: 14%;
+}
+
+.btncontato{
+    text-align: center;
+    background-color: #0a5e3a !important;
+    border-color: #0a5e3a;
+    width: 10%;
+    height: 20%;
+    float: right;
+}
+
+.botaocontatocel
+{
+ position: absolute;
+  top: 85%;
+  left: 44%;
+}
+
+.btncontatocel{
+    text-align: center;
+    background-color: #0a5e3a !important;
+    border-color: #0a5e3a;
+    width: 20%;
+    height: 15%;
+    float: right;
 }

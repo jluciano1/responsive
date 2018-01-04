@@ -454,11 +454,6 @@
         top: 0;
     }
 
-    #imgroleta {
-        margin-top: -20px;
-        height: 281px;
-    }
-
     /* ----------------------------------------------- */
     /* Footer */
     /* ----------------------------------------------- */
@@ -643,10 +638,6 @@
         height: 185px;
     }
     
-    #imgroleta {
-        width: 900px;
-        height: 200px;
-    }
 }
 
 /* Small tablet to big tablet: from 767px to 900px */
@@ -877,11 +868,6 @@
         height: 130px;
     }
     
-    #imgroleta {
-        margin-top: -15px;
-        width: 768px;
-        height: 150px;
-    }
     
     /* ----------------------------------------------- */
     /* footer */
@@ -1172,10 +1158,6 @@
         height: 0px;
     }
     
-    #imgroleta {
-        width: 470px;
-        height: 120px;
-    }
 }
 
 /* Small phones: from 0 to 480px */
@@ -1309,12 +1291,6 @@
     /* ----------------------------------------------- */
     #roleta {
         height: 80px;
-    }
-    
-    #imgroleta {
-        margin-top: 3px;
-        width: 380px;
-        height: 100px;
     }
     
     /* ----------------------------------------------- */
