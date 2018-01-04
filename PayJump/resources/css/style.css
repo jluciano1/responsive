@@ -377,18 +377,6 @@ input[type=submit] {
     background-color: #03da9c;
 }
 
-#botao2{
-    text-align: center;
-    background-color: #0a5e3a;
-    border-color: #0a5e3a;
-    width: 150px;
-    height: 35px;
-    padding: 5px 5px;
-    float: left;
-    margin-left: 215px;
-    margin-top: -10px;
-}
-
 /* ----------------------------------------------- */
 /* Cabeçalho */
 /* ----------------------------------------------- */

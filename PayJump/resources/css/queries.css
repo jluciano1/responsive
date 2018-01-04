@@ -616,12 +616,6 @@
         width: 250px;
     }
     
-    #botao2 {
-        margin-top: -30px;
-        margin-left: 150px;
-        width: 100px;
-    }
-    
     #social-links {
         margin-top: 0;
         width: 340px; 
@@ -846,13 +840,6 @@
     #email {
         margin-top: -10px;
         width: 250px;
-    }
-    
-    #botao2 {
-        margin-top: -30px;
-        margin-left: 170px;
-        width: 80px;
-        font-size: 16px;
     }
     
     #social-links p {
@@ -1143,13 +1130,6 @@
     
     #email {
         font-size: 11px;
-    }
-    
-    #botao2 {
-        font-size: 11px;
-        width: 50px;
-        height: 25px;
-        margin-left: 200px;
     }
     
     #social-links {

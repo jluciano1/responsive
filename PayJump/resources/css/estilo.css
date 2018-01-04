@@ -721,7 +721,7 @@
   background-repeat: repeat; /* for vertical repeat */
   position: absolute;
   height: 5%;
-  top: 514%;
+  top: 95%;
   z-index: -1;
   width: 100%;
 }
@@ -791,12 +791,64 @@
   left: 30%;
 }
 
+.back-loginbrancocel
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-branco.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 50%;
+  z-index: -1;
+  width: 85%;
+  top: 12%;
+  left: 10%;
+}
+
+.back-cadastro
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verde.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+  width: 100%;
+}
+
+.back-cadastrobranco
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-branco.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 50%;
+  z-index: -1;
+  width: 40%;
+  top: 20%;
+  left: 30%;
+}
 .linha-login {
   position: absolute;
   top: 15%;
   left: 10%;
   z-index: -1;
   width: 80%;
+}
+
+.linha-cadastro {
+  position: absolute;
+  top: 27%;
+  left: 35%;
+  z-index: -1;
+  width: 30%;
+}
+
+.linha-cadastrocel {
+  position: absolute;
+  top: 19%;
+  left: 20%;
+  z-index: -1;
+  width: 70%;
 }
 
 .titulo-login{
@@ -815,6 +867,20 @@
   top: 12%;
   left: -35%;
   width: 80%;
+}
+
+.form-cadastro {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  width: 35%;
+}
+
+.form-cadastrocel {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  width: 70%;
 }
 
 .texto-login1
@@ -857,6 +923,15 @@
   width: 12%;
 }
 
+.logo-cadastrocel
+{
+  position: absolute;
+  top: 5%;
+  left: 35%;
+  z-index: -1;
+  width: 35%;
+}
+
 .titulo-login{
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
@@ -871,15 +946,31 @@
 .botaocadastro
 {
  position: absolute;
-  top: 110%;
-  left: -18%;
+  top: 100%;
+  left: 0%;
+}
+
+.botaocadastrocel
+{
+ position: absolute;
+  top: 102%;
+  left: 0%;
 }
 
 .texto-cadastro
 {
  position: absolute;
-  top: 120%;
-  left: 20%;
+  top: 80%;
+  left: 37%;
+  color: #fff !important;
+  text-align: center;
+}
+
+.texto-cadastrocel
+{
+ position: absolute;
+  top: 75%;
+  left: 2%;
   color: #fff !important;
   text-align: center;
 }
@@ -965,8 +1056,43 @@
   font-size: 150%;
   /*margin-top: 50px;*/
   position: absolute;
-  top: 2%;
-  left: 30%;
+  top: 21%;
+  left: 42%;
+}
+
+.titulo-cadastrocel{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 150%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  top: 11%;
+  left: 22%;
 }
 
 input::placeholder { color: gray; }
+
+.textobotaocadastro
+{
+  font-weight: bold;
+  text-align: center;
+}
+
+.btncadastro{
+    text-align: center;
+    background-color: #0a5e3a !important;
+    border-color: #0a5e3a;
+    width: 100%;
+    height: 13%;
+    float: left;
+}
+
+.btncadastrocel{
+    text-align: center;
+    background-color: #0a5e3a !important;
+    border-color: #0a5e3a;
+    width: 100%;
+    height: 15%;
+    float: left;
+}
