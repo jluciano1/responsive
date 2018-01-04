@@ -596,11 +596,6 @@
         font-size: 25px;
     }
     
-    form{
-        margin-top: 10px;
-        margin-left: 178px;    
-    }
-    
     #name {
         margin-top: 0px;
         width: 250px;
@@ -1104,10 +1099,6 @@
     
     h4 {
         margin-top: 20px;    
-    }
-    
-    form{
-        margin-left: -30px;
     }
     
     #name {

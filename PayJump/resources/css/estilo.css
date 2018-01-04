@@ -113,7 +113,7 @@
   position: absolute;
   top: 40%;
   left: 30%;
-  width: 100%;
+  width: 60%;
 }
 
 .texto-quemsomoscel {
@@ -656,13 +656,13 @@
 
 .msgcel {
         margin-top: 0px;
-        width: 50%;
+        width: 87%;
         height: 5%;
     }
     
   .msg {
         margin-top: 0px;
-        width: 24%;
+        width: 49%;
         height: 30%;
     }
     
@@ -672,9 +672,9 @@
 
 .form-contato {
   position: absolute;
-  top: 15%;
-  /*left: 0%;*/
-  width: 100%;
+  top: 18%;
+  left: 25%;
+  width: 50%;
 }
 
 .titulo-contatocel{
@@ -684,31 +684,30 @@
   font-size: 200%;
   /*margin-top: 50px;*/
   position: absolute;
-  /*top: -3%;*/
+  top: 0%;
   /*left: 10%;*/
 }
 
 .linha-contatocel {
   position: absolute;
-  top: 15%;
-  left: 35%;
-  z-index: -1;
-  width: 32%;
+  top: 10%;
+  left: 25%;
+  width: 50%;
 }
 
 .texto-contatocel {
   position: absolute;
   color: #252525 !important;
-  top: 65%;
+  top: 67%;
   left: 15%;
   width: 80%;
 }
 
 .form-contatocel {
   position: absolute;
-  top: 17%;
-  left: 25%;
-  width: 100%;
+  top: 10%;
+  left: 5%;
+  width: 50%;
 }
 
 .back-roleta
@@ -1045,7 +1044,7 @@
   color: #252525 !important;
   top: 45%;
   left: 25%;
-  width: 80%;
+  width: 30%;
 }
 
 .texto-promocao2
@@ -1054,7 +1053,7 @@
   color: #252525 !important;
   top: 45%;
   left: 65%;
-  width: 80%;
+  width: 30%;
 }
 
 .ppromocao1
@@ -1073,7 +1072,7 @@
   color: #252525 !important;
   top: 25%;
   left: 15%;
-  width: 80%;
+  width: 30%;
 }
 
 .texto-promocao2cel
@@ -1082,7 +1081,7 @@
   color: #252525 !important;
   top: 25%;
   left: 55%;
-  width: 80%;
+  width: 30%;
 }
 
 .ppromocao1cel
@@ -1100,7 +1099,7 @@
   border: 2px solid #4CAF50;
   background-color: #2D5333;
   color: #4CAF50 !important;
-  width: 12%;
+  width: 30%;
   height: 10%;
 }
 
@@ -1109,7 +1108,7 @@
   border: 2px solid #4CAF50;
   background-color: #2D5333;
   color: #4CAF50 !important;
-  width: 32%;
+  width: 50%;
   height: 10%;
 }
 
@@ -1188,14 +1187,14 @@ input::placeholder { color: gray; }
 {
  position: absolute;
   top: 90%;
-  left: 14%;
+  left: 30%;
 }
 
 .btncontato{
     text-align: center;
     background-color: #0a5e3a !important;
     border-color: #0a5e3a;
-    width: 10%;
+    width: 20%;
     height: 20%;
     float: right;
 }
@@ -1203,15 +1202,21 @@ input::placeholder { color: gray; }
 .botaocontatocel
 {
  position: absolute;
-  top: 85%;
-  left: 44%;
+  top: 80%;
+  left: 55%;
 }
 
 .btncontatocel{
     text-align: center;
     background-color: #0a5e3a !important;
     border-color: #0a5e3a;
-    width: 20%;
+    width: 32%;
     height: 15%;
     float: right;
 }
+
+/*.form {
+    float: left;
+    margin-left: 280px;
+    margin-top: 45px;
+}*/

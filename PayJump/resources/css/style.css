@@ -748,12 +748,6 @@ header {
     margin-top: 10px;
 }
 
-form {
-    float: left;
-    margin-left: 280px;
-    margin-top: 45px;
-}
-
 #name {
     width: 385px;
     border: 1px;
