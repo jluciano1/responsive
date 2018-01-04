@@ -289,19 +289,12 @@
 				<img src="resources/img/linha.png" alt="linha como funciona" class="linha-bancoscel">
 			</div>
 			<div class="texto-bancocel">
-				<img class="hidden-xs banco1" src="resources/img/bb.png" alt="ficha vermelha k" id="d1">
-				<div class="bancos hidden-sm hidden-md hidden-lg">
-				    Banco do Brasil
-				    <br>
-				    Itaú
-				    <br>
-				    Bradesco <br>
+				<img class="banco1cel" src="resources/img/bb.png" alt="ficha vermelha k" id="d1">
+				<div class="">
+					<img class="banco2cel" src="resources/img/itau.png" alt="ficha amarela r" id="s1">
 				</div>
 				<div class="">
-					<img class="hidden-xs banco2" src="resources/img/itau.png" alt="ficha amarela r" id="s1">
-				</div>
-				<div class="">
-				    <img class="hidden-xs banco3" src="resources/img/bra.png" alt="ficha verde p" id="p3">
+				    <img class="banco3cel" src="resources/img/bra.png" alt="ficha verde p" id="p3">
 			    </div>
 			</div>
 		</div>
@@ -319,9 +312,9 @@
 					<input type="hidden" name="redirect" value="http://PayJump.com.br">
 					<input type="hidden" name="subject" value="Duvidas Home">
 					<input type="hidden" name="email" value="contato@payjump.com"> 
-					<p class="txtform"><input type="text" size="40" name="nome" id="name" value=" Nome Completo" onfocus="EmptyField(this.id);"></p>   
-					<p class="txtform"><input type="text" size="40" name="replyto" id="email" value=" E-mail" onfocus="EmptyField(this.id);"></p>   
-					<p class="txtform"><textarea class="msg" cols="41" rows="5" name="mensagem" type="text" onfocus="EmptyField(this.id);"> Sua Mensagem</textarea></p>   
+					<p class="txtform"><input class="form-control" type="text" size="40" name="nome" id="name" value=" Nome Completo" onfocus="EmptyField(this.id);"></p>   
+					<p class="txtform"><input class="form-control" type="text" size="40" name="replyto" id="email" value=" E-mail" onfocus="EmptyField(this.id);"></p>   
+					<p class="txtform"><textarea class="msg form-control" cols="41" rows="5" name="mensagem" type="text" onfocus="EmptyField(this.id);"> Sua Mensagem</textarea></p>   
 					<br>
 					<p><input type="submit" name="BTEnvia" value="ENVIAR" id="botao2"></p>
 				</form>

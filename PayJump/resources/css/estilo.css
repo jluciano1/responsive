@@ -582,6 +582,27 @@
   top:35%;
 }
 
+.banco1cel {
+  position: absolute;
+  left:5%;
+  top:30%;
+  width: 30%;
+}
+
+.banco2cel {
+  position: absolute;
+  left:45%;
+  top:30%;
+  width: 10%;
+}
+
+.banco3cel {
+  position: absolute;
+  left:65%;
+  top:32%;
+  width: 30%;
+}
+
 .back-contato
 {
   background-size: 100% auto;
@@ -664,7 +685,7 @@
   /*margin-top: 50px;*/
   position: absolute;
   /*top: -3%;*/
-  left: 40%;
+  /*left: 10%;*/
 }
 
 .linha-contatocel {
@@ -1045,7 +1066,7 @@
   position: absolute;
   color: #252525 !important;
   top: 25%;
-  left: 25%;
+  left: 15%;
   width: 80%;
 }
 
@@ -1054,7 +1075,7 @@
   position: absolute;
   color: #252525 !important;
   top: 25%;
-  left: 65%;
+  left: 55%;
   width: 80%;
 }
 
