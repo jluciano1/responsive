@@ -17,26 +17,27 @@
       <!-- Sidebar Holder --> 
       <nav id="sidebar"> 
         <div class="sidebar-header"> 
-        <img src="resources/img/payjump.png" class="" width="" height="60"> 
+          <img src="resources/img/payjump.png" class="" width="" height="60"> 
         </div> 
-        
-        
-        
         <ul class="list-unstyled components"> 
           <p>email@gmail.com</p> 
           <li><a href="#">MENU</a></li> 
           <li><a href="dadospessoais.html"><i class="glyphicon glyphicon-user"></i> <span class="">Dados Pessoais</span> </a> </li> 
           <li> <a href="contas.html"><i class="glyphicon glyphicon-credit-card"></i> <span class="">Contas</span> </a> </li> 
-          <li> <a href="comprar.html"><i class="glyphicon glyphicon-arrow-right"></i> <span class="">Comprar Fichas</span> </a> </li>
+          <li> <a href="comprar.html"><i class="glyphicon glyphicon-arrow-right"></i> <span class="">Comprar Fichas</span> </a> </li> 
           <li><a href="vender.html"><i class="glyphicon glyphicon-arrow-left"></i> <span class="">Vender Fichas</span> </a> </li> 
           <li> <a href="afiliados.html"><i class="glyphicon glyphicon-briefcase"></i> <span class="">Afiliados</span> </a> </li> 
-          <li> <a href="historico.html"><i class="glyphicon glyphicon-repeat"></i> <span class="">Histórico</span> </a> </li>
-            <br>
-            <li class="collapsed component-holder item-menu"><span class="">RECENTES</span></li>
-            <br>
-            <br>
-			  <div class="justificado"><span class="texto-menu">Complemente seu cadastro. Mantenha seus dados atualizados para maior agilidade e segurança. <a class="link-menu">Atualizar agora</a></span></div>
-		  </ul> 
+          <li> <a href="historico.html"><i class="glyphicon glyphicon-repeat"></i> <span class="">Histórico</span> </a> </li> 
+          <br> 
+          <li class="collapsed component-holder item-menu"><span class="">RECENTES</span></li> 
+          <br> 
+          <br> 
+          <div class="justificado">
+            <div class="justificado hidden-xs"><span class="texto-menu">Complemente seu cadastro. Mantenha seus dados atualizados para maior agilidade e segurança. <a class="link-menu">Atualizar agora</a></span></div>
+			  <div class="justificadocel hidden-sm hidden-lg hidden-md"><span class="texto-menu">Complemente seu cadastro. Mantenha seus dados atualizados para maior agilidade e segurança. <a class="link-menu">Atualizar agora</a></span></div>
+			  <div class="justificadocel hidden-sm hidden-lg hidden-md"><span class="texto-menu"></span><br><br><br></div>
+          </div> 
+        </ul> 
       </nav> 
       <!-- Page Content Holder --> 
       <div id="content"> 
@@ -44,23 +45,23 @@
           <div class="container-fluid"> 
             <div class="navbar-header"> 
               <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn"> <i class="glyphicon glyphicon-align-left"></i> <span>Menu</span> </button> 
-              <h4>Afiliados</h4>
+              <h4>Histórico</h4> 
             </div> 
           </div> 
         </nav> 
-        <div class="center">
-            <h3>Acorda. Vamos pro jogo?!</h3>
-            <br>
-            <p>Não foram encontradas transações para sua conta. Comece comprando novas fichas <a class="link-menu">aqui!</a></p>
+        <div class="center"> 
+          <h3>Acorda. Vamos pro jogo?!</h3> 
+          <br> 
+          <p>Não foram encontradas transações para sua conta. Comece comprando novas fichas <a href="comprar.html" class="link-menu">aqui!</a></p> 
+        </div> 
       </div> 
-    </div> 
-    <!-- jQuery CDN --> 
-    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script> 
-    <!-- Bootstrap Js CDN --> 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
-    <!-- jQuery Custom Scroller CDN --> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script> 
-    <script type="text/javascript">
+      <!-- jQuery CDN --> 
+      <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script> 
+      <!-- Bootstrap Js CDN --> 
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+      <!-- jQuery Custom Scroller CDN --> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script> 
+      <script type="text/javascript">
             $(document).ready(function () {
                 $("#sidebar").mCustomScrollbar({
                     theme: "minimal"
@@ -72,6 +73,7 @@
                     $('a[aria-expanded=true]').attr('aria-expanded', 'false');
                 });
             });
-        </script>   
+        </script>  
+    </div>
   </body>
 </html>

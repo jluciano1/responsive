@@ -247,3 +247,54 @@ a.article, a.article:hover {
   top: 40%;
   left: 3%;
 }
+
+.btnsalvarcel{
+    text-align: center;
+    background-color: #0a5e3a !important;
+    border-color: #0a5e3a;
+    width: 30%;
+    height: 5%;
+    float: left;
+}
+
+.botaosalvarcel
+{
+ position: absolute;
+  top: 95%;
+  left: 60%;
+}
+
+.painelcel
+{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  border-style: groove;
+}
+
+.painelheadercel
+{
+  border-style: double;
+   background-color: gainsboro;
+}
+
+.btnnovoscel{
+    text-align: center;
+    background-color: #0a5e3a !important;
+    border-color: #0a5e3a;
+    width: 40%;
+    height: 5%;
+    float: left;
+}
+
+.botaonovoscel
+{
+ position: absolute;
+  top: 65%;
+  left: 5%;
+}
+
+.justificadocel{
+	text-align: justify;
+	top: 50%;
+}
