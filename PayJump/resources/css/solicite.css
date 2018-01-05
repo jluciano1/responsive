@@ -178,7 +178,7 @@ a.article, a.article:hover {
 }
 
 .link-menu{
-	font-size: 12px;
+	font-size: 100%;
 	color: #f7b982;	
 }
 
@@ -204,6 +204,46 @@ a.article, a.article:hover {
 .botaosalvar
 {
  position: absolute;
-  top: 60%;
+  top: 95%;
   left: 68%;
+}
+
+.center
+{
+  text-align: center;
+}
+
+.painel
+{
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  border-style: groove;
+}
+
+.painelheader
+{
+  border-style: double;
+   background-color: gainsboro;
+}
+
+.link-painel{
+	font-size: 100%;
+	color: #f7b982;	
+}
+
+.btnnovos{
+    text-align: center;
+    background-color: #0a5e3a !important;
+    border-color: #0a5e3a;
+    width: 20%;
+    height: 5%;
+    float: left;
+}
+
+.botaonovos
+{
+ position: absolute;
+  top: 40%;
+  left: 3%;
 }
