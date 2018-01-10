@@ -1,9 +1,14 @@
 .item-menu{
-  padding: 2px 10px;
+  text-align: center;
     display: inline-block;
-	font-size: 10px;
-	color: #fdf9f9 !important;	
+	font-size: 110%;
+	color: #0d0d0d !important;	
 	font-weight: bold;
+}
+
+.center-menu
+{
+  padding-left: 10%;
 }
 
 .arredondado-menu {
@@ -84,7 +89,7 @@
   font-size: 150%;
   margin-top: 4%;
   position: absolute;
-  top: -35%;
+  top: -30%;
   left: 38%;
 }
 
@@ -304,7 +309,7 @@
 
 .back-comofuncionacel
 {
-  background-size: 100% auto;
+  background-size: 500% auto;
   background-image: url(img/fundo-verdetextura.png);
   background-repeat: repeat; /* for vertical repeat */
   position: absolute;
@@ -413,7 +418,7 @@
 
 .back-rapidocel
 {
-  background-size: 100% auto;
+  background-size: 500% auto;
   background-image: url(img/fundo-verdetextura.png);
   background-repeat: repeat; /* for vertical repeat */
   position: absolute;
@@ -715,7 +720,7 @@
 .form-contatocel {
   position: absolute;
   top: 10%;
-  left: -15%;
+  left: -30%;
   width: 50%;
 }
 
@@ -733,8 +738,9 @@
 
 .imgroleta {
     height: 120%;
-    width: 100%;
+    width: 120%;
     margin-top: -4%;
+    margin-left: -10%;
 }
 
 .back-roletacel
@@ -1063,7 +1069,7 @@
 .texto-cadastro
 {
  position: absolute;
-  top: 80%;
+  top: 85%;
   left: 37%;
   color: #fff !important;
   text-align: center;
@@ -1242,17 +1248,18 @@ input::placeholder { color: gray; }
 .botaocontatocel
 {
  position: absolute;
-  top: 80%;
-  left: 75%;
+  top: 70%;
+  left: 85%;
 }
 
 .btncontatocel{
     text-align: center;
     background-color: #0a5e3a !important;
     border-color: #0a5e3a;
-    width: 50%;
+    width: 40%;
     height: 15%;
     float: right;
+    font-size: 50%;
 }
 
 .iconepay {
