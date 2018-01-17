@@ -845,7 +845,7 @@
   background-image: url(img/fundo-branco.png);
   background-repeat: repeat; /* for vertical repeat */
   position: absolute;
-  height: 50%;
+  height: 60%;
   z-index: -1;
   width: 85%;
   top: 12%;
@@ -882,7 +882,7 @@
   background-image: url(img/fundo-verde.png);
   background-repeat: repeat; /* for vertical repeat */
   position: absolute;
-  height: 100%;
+  height: 110%;
   z-index: -1;
   width: 100%;
 }
@@ -893,7 +893,7 @@
   background-image: url(img/fundo-branco.png);
   background-repeat: repeat; /* for vertical repeat */
   position: absolute;
-  height: 53%;
+  height: 82%;
   z-index: -1;
   width: 80%;
   top: 12%;
@@ -956,7 +956,7 @@
 .form-cadastrocel {
   position: absolute;
   top: 20%;
-  left: -12%;
+  left: -30%;
   width: 70%;
 }
 
@@ -984,7 +984,7 @@
 .botaologincel
 {
  position: absolute;
-  top: 60%;
+  margin-top: 5%;
   left: 60%;
 }
 
@@ -999,9 +999,10 @@
 .texto-login2cel
 {
  position: absolute;
-  top: 65%;
-  left: 5%;
+  top: 75%;
+  left: 10%;
   color: #fff !important;
+  font-size: 100%;
 }
 
 .logo-login
@@ -1016,7 +1017,7 @@
 .logo-logincel
 {
   position: absolute;
-  top: 75%;
+  top: 80%;
   left: 25%;
   z-index: -1;
   width: 50%;
@@ -1034,7 +1035,7 @@
 .logo-cadastrocel
 {
   position: absolute;
-  top: 5%;
+  top: 2%;
   left: 35%;
   z-index: -1;
   width: 35%;
@@ -1058,8 +1059,8 @@
   font-size: 150%;
   /*margin-top: 50px;*/
   position: absolute;
-  top: 12%;
-  left: 25%;
+  top: 9%;
+  left: 20%;
 }
 
 .botaocadastro
@@ -1072,7 +1073,7 @@
 .botaocadastrocel
 {
  position: absolute;
-  top: 102%;
+  top: 97%;
   left: 0%;
 }
 
@@ -1183,11 +1184,11 @@
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
   text-align: center;
-  font-size: 150%;
+  font-size: 100%;
   /*margin-top: 50px;*/
   position: absolute;
   top: 11%;
-  left: 22%;
+  left: 20%;
 }
 
 input::placeholder { color: gray; }
@@ -1196,6 +1197,19 @@ input::placeholder { color: gray; }
 {
   font-weight: bold;
   text-align: center;
+  font-size: 80%;
+}
+
+.textobotaologin
+{
+  font-weight: bold;
+  text-align: center;
+  font-size: 80%;
+}
+
+.form-checkcel{
+  margin-left:-18%;
+  margin-top:55%;
 }
 
 .btncadastro{
@@ -1212,7 +1226,7 @@ input::placeholder { color: gray; }
     background-color: #0a5e3a !important;
     border-color: #0a5e3a;
     width: 100%;
-    height: 15%;
+    height: 10%;
     float: left;
 }
 
@@ -1230,14 +1244,21 @@ input::placeholder { color: gray; }
     background-color: #0a5e3a !important;
     border-color: #0a5e3a;
     width: 45%;
-    height: 25%;
+    height: 20%;
     float: right;
 }
 
 .pesqueceu
 {
-  font-size: 85%;
+  font-size: 120%;
   color: black;
+}
+
+.pesqueceucel
+{
+  font-size: 80%;
+  color: black;
+  margin-top: 13%;
 }
 
 .botaocontato
@@ -1297,4 +1318,16 @@ input::placeholder { color: gray; }
   top: 95%;
   z-index: -1;
   width: 100%;
+}
+
+.back-footercadastrocel
+{
+  background-size: 100% auto;
+  background-image: url(img/fundo-verdeclaro.png);
+  background-repeat: repeat; /* for vertical repeat */
+  position: absolute;
+  height: 5%;
+  top: 105%;
+  z-index: -1;
+  width: 100%; 
 }
