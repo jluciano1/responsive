@@ -118,7 +118,7 @@
 .texto-quemsomos {
   position: absolute;
   top: 40%;
-  left: 30%;
+  left: 35%;
   width: 60%;
 }
 
@@ -442,7 +442,7 @@
 
 .linha-rapido {
   position: absolute;
-  top: 28%;
+  top: 22%;
   left: 7%;
   z-index: -1;
   width: 32%;
@@ -450,7 +450,7 @@
 
 .texto-rapido {
   position: absolute;
-  top: 30%;
+  top: 22%;
   left: -25%;
   width: 100%;
   font-size: 100%;
@@ -1089,7 +1089,7 @@
   position: absolute;
   color: #252525 !important;
   top: 45%;
-  left: 25%;
+  left: 40%;
   width: 30%;
 }
 
@@ -1265,7 +1265,7 @@ input::placeholder { color: gray; }
 .iconepay {
     position: absolute;
     top: 45%;
-    left: 15%;
+    left: 30%;
     width: 8%
 }
 
