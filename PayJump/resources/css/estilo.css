@@ -159,6 +159,18 @@
   left: 45%;
 }
 
+.titulo-comofuncionanoteex{
+  font-family: 'Quicksand', sans-serif;
+  color: #03da9c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 50px;
+  position: absolute;
+  top: -4%;
+  left: 45%;
+}
+
 .linha-comofunciona {
   position: absolute;
   top: 18%;
@@ -449,10 +461,26 @@
   width: 32%;
 }
 
+.linha-rapidonoteex {
+  position: absolute;
+  top: 19%;
+  left: 7%;
+  z-index: -1;
+  width: 32%;
+}
+
 .texto-rapido {
   position: absolute;
   top: 22%;
   left: -25%;
+  width: 100%;
+  font-size: 100%;
+}
+
+.texto-rapidonoteex {
+  position: absolute;
+  top: 22%;
+  left: -18%;
   width: 100%;
   font-size: 100%;
 }
@@ -661,6 +689,14 @@
   width: 32%;
 }
 
+.linha-contatonoteex {
+  position: absolute;
+  top: 17%;
+  left: 35%;
+  z-index: -1;
+  width: 32%;
+}
+
 .texto-contato {
   position: absolute;
   color: #252525 !important;
@@ -689,6 +725,13 @@
   position: absolute;
   top: 18%;
   left: 25%;
+  width: 50%;
+}
+
+.form-contatonoteex {
+  position: absolute;
+  top: 18%;
+  left: 0%;
   width: 50%;
 }
 
@@ -796,7 +839,12 @@
 .imagem-pardeas{
   position: absolute;
   top: 60%;
-  /*left: 15%;*/
+}
+
+.imagem-pardeasnoteex{
+  position: absolute;
+  top: 70%;
+  width: 15%;
 }
 
 .fichas{
@@ -1341,6 +1389,13 @@ input::placeholder { color: gray; }
 
 @media only screen and (min-width:1500px) {
     .noteex
+    {
+      display: none;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1500px) {
+    .noteexhide
     {
       display: none;
     }
