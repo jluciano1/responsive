@@ -739,9 +739,9 @@
 
 .imgroleta {
     height: 120%;
-    width: 120%;
+    width: 100%;
     margin-top: -4%;
-    margin-left: -10%;
+    margin-left: 0%;
 }
 
 .back-roletacel
@@ -1330,4 +1330,18 @@ input::placeholder { color: gray; }
   top: 105%;
   z-index: -1;
   width: 100%; 
+}
+
+@media only screen and (min-width:0px) and (max-width:1200px) {
+    .noteex
+    {
+      display: none;
+    }
+}
+
+@media only screen and (min-width:1500px) {
+    .noteex
+    {
+      display: none;
+    }
 }
