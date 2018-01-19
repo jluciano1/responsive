@@ -6,6 +6,14 @@
 	font-weight: bold;
 }
 
+.item-menunoteex{
+  text-align: center;
+    display: inline-block;
+	font-size: 90%;
+	color: #0d0d0d !important;	
+	font-weight: bold;
+}
+
 .center-menu
 {
   padding-left: 10%;
@@ -956,6 +964,16 @@
   width: 35%;
 }
 
+.linha-loginnoteex {
+  position: absolute;
+  top: 30%;
+  left: 32%;
+  z-index: -1;
+  width: 35%;
+}
+
+
+
 .linha-logincel {
   position: absolute;
   top: 20%;
@@ -967,6 +985,14 @@
 .linha-cadastro {
   position: absolute;
   top: 27%;
+  left: 35%;
+  z-index: -1;
+  width: 30%;
+}
+
+.linha-cadastronoteex{
+  position: absolute;
+  top: 30%;
   left: 35%;
   z-index: -1;
   width: 30%;
@@ -987,6 +1013,13 @@
   width: 35%;
 }
 
+.form-loginnoteex{
+  position: absolute;
+  top: 32%;
+  left: 10%;
+  width: 35%;
+}
+
 .form-logincel {
   position: absolute;
   top: 18%;
@@ -998,6 +1031,13 @@
   position: absolute;
   top: 32%;
   left: 32%;
+  width: 35%;
+}
+
+.form-cadastronoteex{
+  position: absolute;
+  top: 30%;
+  left: 10%;
   width: 35%;
 }
 
@@ -1100,6 +1140,17 @@
   left: 43%;
 }
 
+.titulo-loginnoteex{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  top: 21%;
+  left: 40%;
+}
+
 .titulo-logincel{
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
@@ -1115,6 +1166,13 @@
 {
  position: absolute;
   top: 100%;
+  left: 0%;
+}
+
+.botaocadastronoteex
+{
+ position: absolute;
+  top: 130%;
   left: 0%;
 }
 
@@ -1228,6 +1286,17 @@
   left: 42%;
 }
 
+.titulo-cadastronoteex{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 150%;
+  /*margin-top: 50px;*/
+  position: absolute;
+  top: 21%;
+  left: 40%;
+}
+
 .titulo-cadastrocel{
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
@@ -1266,6 +1335,15 @@ input::placeholder { color: gray; }
     border-color: #0a5e3a;
     width: 100%;
     height: 13%;
+    float: left;
+}
+
+.btncadastronoteex{
+    text-align: center;
+    background-color: #0a5e3a !important;
+    border-color: #0a5e3a;
+    width: 100%;
+    height: 17%;
     float: left;
 }
 
